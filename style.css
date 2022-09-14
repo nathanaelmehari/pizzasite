@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.nav{
+    background-color: crimson;
+    height: 80px;
+    width: 100%;
+    
+}
+.nav label{
+    color: white;
+    line-height: 80px;
+    font-size: 40px;
+    
+}
+.nav ul{
+    float: right;
+    margin-right: 40px;
+}
+.nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin-right: 70px;
+    position: relative;
+}
+.nav ul li a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    letter-spacing: 3px;
+    
+
+}
+
+
+.sec{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url("yo.png");
+    background-size: cover;
+    background-position: center;
+}
+.ti{
+   position: absolute;
+    color: white;
+    top: 50%;
+    left: 36%;
+}
+.ti label{
+    font-size: 90px;
+
+}
+.ti p{
+    font-size: 20px;
+}
+button{
+    display: block;
+    margin-top: 40px;
+    width: 200px;
+    font-size: 20px;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid crimson;
+    background: transparent;
+    color: #ffff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    letter-spacing: 2px;
+    transition: .7s;
+}
+ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: 18px;
+    transition: .5s ease-in-out;
+}
+ul li:hover::after{
+    width: 100%;
+}
+button:hover{
+    background-color: crimson;
+    border: none;
+    letter-spacing: 4px;
+}

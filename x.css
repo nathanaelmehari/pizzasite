@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.all{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(crimson,red);
+    
+
+}
+h1{
+    transform: translate(0%,-50%);
+    color: white;
+    align-items: center;
+}
